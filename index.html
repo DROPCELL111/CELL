@@ -111,17 +111,24 @@
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
 
-    gtag('config', 'AW-XXXXXXXXXX'); // Substitua "AW-XXXXXXXXXX" pelo seu ID de acompanhamento do Google Ads
-  </script>
+    gtag('config', 'AW-11557495283');
+  <script>
+  gtag('event', 'conversion', {
+    'send_to': 'AW-11557495283/9Ds9CMeOg4QaEPPDhYcr',
+    'value': 1.0,
+    'currency': 'BRL'
+  });
+</script>
+</script>
 </head>
 <body>
   <div class="container">
     <h1>Bem-vindo à DropCell</h1>
     <p>Realize um orçamento rápido e sem compromisso para consertar o seu celular. Clique no botão abaixo!</p>
-    <a href="https://wa.me/5548991098157" target="_blank">Solicitar Orçamento</a>
+    <a href="https://wa.me/5548991098157" target="_blank" onclick="gtag('event', 'conversion', {'send_to': 'AW-11557495283'});">Solicitar Orçamento</a>
   </div>
 
-  <a href="https://wa.me/5548991098157" target="_blank" class="whatsapp-button">&#x1F4AC;</a>
+  <a href="https://wa.me/5548991098157" target="_blank" class="whatsapp-button" onclick="gtag('event', 'conversion', {'send_to': 'AW-11557495283'});">&#x1F4AC;</a>
 
   <div class="info-box">
     <p>&copy; 2025 DropCell. Todos os direitos reservados.</p>
